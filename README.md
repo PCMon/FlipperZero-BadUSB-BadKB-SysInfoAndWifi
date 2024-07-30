@@ -19,7 +19,7 @@ Default = true,true,true
 [Full .exe code also included.](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/TempDriverUtil.py)
 
 If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it.
-(GPU data currently only works for NVIDIA gpus).
+(Unsure if GPU works for non-nvidia GPU's).
 
 PAYLOAD TIME: 15.812s
 
