@@ -10,6 +10,8 @@ Place discord webhook url into the line that says "PUT WEBHOOK HERE".
 
 Move to FlipperZero and run :D
 
+(I may add more customization later like only sending specific webhooks and removing the embed spoilers.)
+
 --------------------------------------------------------
 
 [Full .exe code also included.](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/TempDriverUtil.py)
