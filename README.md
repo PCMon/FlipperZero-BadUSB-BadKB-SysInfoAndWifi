@@ -2,7 +2,7 @@
 
 ### How to run:
 
-Download raw of FlipperZero Payload.txt
+    Download raw of FlipperZero Payload.txt
 
 Under **CUSTOMIZATION** place your discord webhook url into the line that says "PUT WEBHOOK HERE".
 
