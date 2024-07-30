@@ -36,7 +36,7 @@ You cannot run the .exe standalone as it requires variables present in a .txt (j
 
 Have python3 installed (Duh).
 
-Install the following:
+Install the following using command prompt:
 
 ```pip install pyinstaller```
 ```pip install requests```
