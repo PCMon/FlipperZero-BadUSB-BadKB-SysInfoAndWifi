@@ -4,13 +4,13 @@
 
 Download raw of FlipperZero Payload.txt
 
-Place discord webhook url into the line that says "PUT WEBHOOK HERE".
+Under **CUSTOMIZATION** place your discord webhook url into the line that says "PUT WEBHOOK HERE".
 
-**DO NOT** remove the quotation marks.
+**DO NOT** remove any quotation marks.
 
 Move to FlipperZero and run :D
 
-(I may add more customization later like only sending specific webhooks and removing the embed spoilers.)
+(You may also customize what the program does by setting the variables after $webhook to "true" or "false", capitalization doesn't matter)
 
 --------------------------------------------------------
 
