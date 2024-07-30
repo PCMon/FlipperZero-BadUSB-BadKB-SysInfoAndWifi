@@ -2,7 +2,7 @@
 
 ### How to run:
 
-    Download raw of FlipperZero Payload.txt
+Download raw of FlipperZero Payload.txt
 
 Under **CUSTOMIZATION** place your discord webhook url into the line that says "PUT WEBHOOK HERE".
 
@@ -38,9 +38,9 @@ Have python3 installed (Duh).
 
 Install the following using command prompt:
 
-```pip install pyinstaller```
-```pip install requests```
-```pip install psutil```
+    pip install pyinstaller
+    pip install requests
+    pip install psutil
 
 Navigate to the location of the .py file:
 
