@@ -2,7 +2,7 @@
 
 ### How to run:
 
-> Download raw of FlipperZero Payload.txt
+> Download raw of [FlipperZero Payload.txt](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/raw/main/FlipperZero%20Payload.txt)
 
 > Under **CUSTOMIZATION** place your discord webhook url into the line that says "PUT WEBHOOK HERE".
 
