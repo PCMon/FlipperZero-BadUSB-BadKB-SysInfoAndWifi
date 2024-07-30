@@ -4,9 +4,9 @@
 
 Download raw of FlipperZero Payload.txt
 
-Place discord webhook url into the line that says "PUT WEBHOOK HERE"
+Place discord webhook url into the line that says "PUT WEBHOOK HERE".
 
-**DO NOT** remove the quotation marks
+**DO NOT** remove the quotation marks.
 
 Move to FlipperZero and run :D
 
@@ -14,7 +14,7 @@ Move to FlipperZero and run :D
 
 [Full .exe code also included](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/TempDriverUtil.py)
 
-If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it
+If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it.
 (GPU data currently only works for NVIDIA gpus)
 
 PAYLOAD TIME: 15.6s
@@ -22,3 +22,5 @@ PAYLOAD TIME: 15.6s
 What will be sent:
 
 ![alt text](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/image.png?raw=true)
+
+If errors occour in the powershell terminal, it may be due to a slow computer messing up the timing of the DELAY functions in the payload. Remember, you can always enter these powershell lines manually.
