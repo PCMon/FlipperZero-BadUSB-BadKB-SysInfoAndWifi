@@ -1,3 +1,5 @@
+**PLEASE ONLY USE THIS ON YOUR OWN COMPUTER OR ON PEOPLE WHO CONSENT**
+
 Place discord webhook url into the line that says "PUT WEBHOOK HERE"
 DO NOT remove the quotation marks
 
