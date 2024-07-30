@@ -1,4 +1,4 @@
-<span style="font-size:1em;">PLEASE ONLY USE THIS ON YOUR OWN COMPUTER OR ON SOMEONE WHO CONSENTS</span>
+# **PLEASE ONLY USE THIS ON YOUR OWN COMPUTER OR ON SOMEONE WHO CONSENTS**
 
 Place discord webhook url into the line that says "PUT WEBHOOK HERE"
 DO NOT remove the quotation marks
