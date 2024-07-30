@@ -4,9 +4,9 @@ DELAY 150
 STRING powershell Start-Process powershell -Verb runAs
 DELAY 200
 ENTER
-DELAY 700
+DELAY 900
 LEFTARROW
-DELAY 500
+DELAY 600
 ENTER
 DELAY 800
 REM **CUSTOMIZATION** Use these variables to pick what the program does
