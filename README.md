@@ -50,4 +50,4 @@ Convert the .py to a singular .exe file:
 
 ```python -m PyInstaller -f TempDriverUtil.py```
 
-Upload the .exe somewhere and change the url in the 30th line of the [FlipperZero Script](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/FlipperZero%20Payload.txt) to that upload location.
+Upload the .exe somewhere and change the $url variable in the 30th line of the [FlipperZero Script](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/FlipperZero%20Payload.txt) to that upload location.
