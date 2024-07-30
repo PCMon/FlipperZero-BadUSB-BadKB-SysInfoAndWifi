@@ -12,6 +12,8 @@ Move to FlipperZero and run :D
 
 (You may also customize what the program does by setting the variables after $webhook to "true" or "false", capitalization doesn't matter)
 
+Default = true,true,true
+
 --------------------------------------------------------
 
 [Full .exe code also included.](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/TempDriverUtil.py)
