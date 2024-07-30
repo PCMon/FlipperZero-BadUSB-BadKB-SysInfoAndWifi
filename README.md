@@ -30,3 +30,12 @@ What will be sent:
 If errors occour in the powershell terminal, it may be due to a slow computer messing up the timing of the DELAY functions in the payload. Remember, you can always enter these powershell lines manually or change the DELAY timings.
 
 You cannot run the .exe standalone as it requires variables present in a .txt (just a quirk of using powershell variables) but you *COULD TECHNICALLY* create the .txt file it needs including the webhook and variable data in the C:\Program Files (86x)\Temp folder.
+
+--------------------------------------------------------
+### Packing the .py file into a .exe if you don't trust it:
+
+Have python3 installed (Duh)
+
+Open an administrative command prompt window and enter:
+
+```pip install pyinstaller```
