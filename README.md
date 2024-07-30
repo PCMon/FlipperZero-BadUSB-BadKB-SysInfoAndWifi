@@ -2,17 +2,17 @@
 
 ### How to run:
 
-Download raw of FlipperZero Payload.txt
+> Download raw of FlipperZero Payload.txt
 
-Under **CUSTOMIZATION** place your discord webhook url into the line that says "PUT WEBHOOK HERE".
+> Under **CUSTOMIZATION** place your discord webhook url into the line that says "PUT WEBHOOK HERE".
 
-**DO NOT** remove any quotation marks.
+> **DO NOT** remove any quotation marks.
 
-Move to FlipperZero and run :D
+> Move to FlipperZero and run :D
 
-(You may also customize what the program does by setting the variables after $webhook to "true" or "false", capitalization doesn't matter).
+> (You may also customize what the program does by setting the variables after $webhook to "true" or "false", capitalization doesn't matter).
 
-Default: true,true,true
+> > Default: true,true,true
 
 --------------------------------------------------------
 
