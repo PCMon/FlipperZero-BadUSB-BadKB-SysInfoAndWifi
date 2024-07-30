@@ -42,7 +42,7 @@ You cannot run the .exe standalone as it requires variables present in a .txt (j
 > > ```pip install requests```
 > > ```pip install psutil```
 
-> Navigate to the location of the .py file:
+> Navigate to the folder of the .py file:
 
 > > ```cd <dir>```
 
