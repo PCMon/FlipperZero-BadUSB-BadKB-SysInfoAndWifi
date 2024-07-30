@@ -39,7 +39,9 @@ Have python3 installed (Duh).
 Install the following using command prompt:
 
     pip install pyinstaller
+    
     pip install requests
+    
     pip install psutil
 
 Navigate to the location of the .py file:
