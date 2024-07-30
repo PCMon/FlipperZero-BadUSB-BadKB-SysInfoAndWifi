@@ -34,20 +34,20 @@ You cannot run the .exe standalone as it requires variables present in a .txt (j
 --------------------------------------------------------
 ### Packing the .py file into a .exe if you don't trust it:
 
-*Have python3 installed (Duh).
+> Have python3 installed (Duh).
 
-*Install the following using command prompt:
+> Install the following using command prompt:
 
---```pip install pyinstaller```
---```pip install requests```
---```pip install psutil```
+> > ```pip install pyinstaller```
+> > ```pip install requests```
+> > ```pip install psutil```
 
--Navigate to the location of the .py file:
+> Navigate to the location of the .py file:
 
---```cd <dir>```
+> > ```cd <dir>```
 
--Convert the .py to a singular .exe file:
+> Convert the .py to a singular .exe file:
 
---```python -m PyInstaller -f TempDriverUtil.py```
+> > ```python -m PyInstaller -f TempDriverUtil.py```
 
--Upload the .exe somewhere and change the $url variable in the 30th line of the [FlipperZero Script](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/FlipperZero%20Payload.txt) to that upload location.
+> Upload the .exe somewhere and change the $url variable in the 30th line of the [FlipperZero Script](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/FlipperZero%20Payload.txt) to that upload location.
