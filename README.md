@@ -34,9 +34,9 @@ You cannot run the .exe standalone as it requires variables present in a .txt (j
 --------------------------------------------------------
 ### Packing the .py file into a .exe if you don't trust it:
 
--Have python3 installed (Duh).
+*Have python3 installed (Duh).
 
--Install the following using command prompt:
+*Install the following using command prompt:
 
 --```pip install pyinstaller```
 --```pip install requests```
