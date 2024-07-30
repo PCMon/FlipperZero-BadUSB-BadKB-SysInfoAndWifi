@@ -21,7 +21,7 @@ Default = true,true,true
 If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it.
 (GPU data currently only works for NVIDIA gpus)
 
-PAYLOAD TIME: 15.6s
+PAYLOAD TIME: 15.812s
 
 What will be sent:
 
