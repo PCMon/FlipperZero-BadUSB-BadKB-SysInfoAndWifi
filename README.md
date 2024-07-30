@@ -1,7 +1,16 @@
 ## **PLEASE ONLY USE THIS ON YOUR OWN COMPUTER OR ON SOMEONE WHO CONSENTS**
 
+### How to run:
+
+Download raw of FlipperZero Payload.txt
+
 Place discord webhook url into the line that says "PUT WEBHOOK HERE"
-DO NOT remove the quotation marks
+
+**DO NOT** remove the quotation marks
+
+Move to FlipperZero and run :D
+
+--------------------------------------------------------
 
 Full .exe code also included
 
