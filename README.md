@@ -25,7 +25,7 @@
 If the program fails in some way to collect any information as seen in the webhook embeds please comment the issue and i'll look into it.
 (Unsure if GPU works for non-nvidia GPU's).
 
-PAYLOAD TIME: 15.95s
+PAYLOAD TIME: 15.5s
 
 If errors occour in the powershell terminal, it may be due to a slow computer messing up the timing of the DELAY functions in the payload. Remember, you can always enter these powershell lines manually or change the DELAY timings.
 
