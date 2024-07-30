@@ -16,7 +16,7 @@
 
 --------------------------------------------------------
 
-What will be sent:
+**What will be sent:**
 
 ![alt text](https://github.com/PCMon/FlipperZero-BadUSB-BadKB-SysInfoAndWifi/blob/main/image.png?raw=true)
 
